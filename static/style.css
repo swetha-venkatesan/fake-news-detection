@@ -1,0 +1,42 @@
+    body {
+        background-image: url('https://concordia.ab.ca/wp-content/uploads/2022/09/Machine-Learning-Background-scaled.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    h2,h3{
+        color: #fff;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+    fieldset {
+        background-color: rgba(195, 96, 175, 0.258);
+        border-radius: 10px;
+        padding: 20px;
+        width: 50%;
+        margin: auto;
+    }
+
+    legend {
+        font-size: 1.5em;
+        color: #fff;
+        font-family: Arial, sans-serif;
+    }
+    input[type="text"], textarea {
+        background-color: #ffffff;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(7, 170, 191);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }

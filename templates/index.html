@@ -1,0 +1,22 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body align="center">
+    <h2>Enter News to Predict</h2>
+    <form action="/predict" method="POST">
+        <textarea name="news" rows="8" cols="60" placeholder="Enter news text here..."></textarea><br><br>
+        <input type="submit" value="Predict">
+    </form>
+    <fieldset>
+        <legend>Fake News Detection</legend>
+        <h3>{{ prediction_text }}</h3>
+    </fieldset>
+</body>
+</html>
